@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Neural Network Testing</title>
+    <script src="canvas.js"></script>
+    <script src="neuralNetwork.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/addons/p5.dom.js"></script>
+    <style>
+        #infos {
+            text-align: right;
+            font-size: 40px;
+            position: absolute;
+            left: 0px;
+            right: 30px;
+            z-index: -1;
+        }
+
+        #wsInfos {
+            text-align: left;
+            font-size: 25px;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="infos">
+        <p>Loop:
+            <span id="loopCounter"></span>
+        </p>
+        <p id="howManyGood"></p>
+    </div>
+    <div id="sketch-holder"></div>
+    <div id="wsInfos">
+        <p>W1:
+            <span id="w1"></span>
+        </p>
+        <p>W2:
+            <span id="w2"></span>
+        </p>
+        <p>W3:
+            <span id="w3"></span>
+        </p>
+    </div>
+</body>
+
+</html>
